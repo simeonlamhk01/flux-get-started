@@ -5,9 +5,9 @@ metadata:
   name: redis
   namespace: demo
   annotations:
-    fluxcd.io/automated: "true"
+    fluxcd.io/automated: "false"
     fluxcd.io/tag.chart-image: semver:~4.0
-    fluxcd.io/locked: "true"
+    fluxcd.io/locked: "false"
     fluxcd.io/locked_msg: "Halt updates for now"
     fluxcd.io/locked_user: "Stefan Prodan <stefan@weave.works>"
 spec:
